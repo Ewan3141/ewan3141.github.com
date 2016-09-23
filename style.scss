@@ -290,6 +290,12 @@ footer {
 @import "svg-icons";
 
 
+
+
+table {
+    border-collapse: collapse;
+}
+
 table, th, td {
-   border: 1px solid black;
+    border: 1px solid black;
 }
