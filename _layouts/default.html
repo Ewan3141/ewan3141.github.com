@@ -63,6 +63,20 @@
     display: block;
     z-index: +32000;
 }
+  
+  ul {
+  overflow: hidden;
+  transition: all .3s ease;
+}
+
+ul.folded {
+  max-height: 0;
+}
+
+ul.unfolded {
+  max-height: 300px; //value of max-height should always bigger than actual sum of all li's height
+}
+  
 .dropdown-content a:hover {background-color: #f1f1f1}
 .dropdown:hover .dropdown-content {
     display: block;
@@ -87,6 +101,8 @@
     
   </div>
 </div>
+  
+ 
   
 </body>
 </html>
