@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="https://lh3.googleusercontent.com/-ZCr7H_ADd8o/VlO5kY0w9JI/AAAAAAAAAB8/9Uq_kTNGuX4/w800-h800/code_energy_favicon.png" rel="shortcut icon">
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
@@ -18,46 +17,28 @@
 
   <body>
     <div class="wrapper-masthead">
- <!--    <div class="container"> -->
-     
+      <div class="container">
         <header class="masthead clearfix">
-          <a class="site-avatar"><img src="https://lh3.googleusercontent.com/-ZCr7H_ADd8o/VlO5kY0w9JI/AAAAAAAAAB8/9Uq_kTNGuX4/w800-h800/code_energy_favicon.png" /></a>
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
           <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/about">{{ site.name }}</a></h1>
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
 
           <nav>
-              <div class="dropdown">
-                <button class="dropbtn"> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/VisualEditor_-_Icon_-_Menu.svg/2000px-VisualEditor_-_Icon_-_Menu.svg.png" height=105px width="105px"> </button>
-                  <div class="dropdown-content">
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/" class="nav-link-1">Home<!--: Read my Blog--></a></li>
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/about" class="nav-link-1">About<!--: Find out about me--></a></li>
-                    <li class="nav-bar-top"><a class="nav-link-3">Blog Posts:</a></li>
-     
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/blog-6/" class="nav-link-1">Week 6</a></li>
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/blog-5/" class="nav-link-1">Week 5</a></li>
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/blog-4/" class="nav-link-1">Week 4</a></li>
-                    <li class="nav-bar-top"><a href="{{ site.baseurl }}/blog-3/" class="nav-link-2">Older...</a></li>
-                  </div>
-              </div>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
       </div>
- <!--   </div> -->
+    </div>
 
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <!--<div class="container">-->
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      <!--</div>-->
-    </div>
+    
 
     {% include analytics.html %}
   </body>
