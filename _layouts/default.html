@@ -36,13 +36,28 @@
 <head>
 <style>
 .dropbtn {
-    background-color: #000000;
+    background-color: #f40008;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
+  
+  div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    -webkit-transition: width 2s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s;
+}
+
+div:hover {
+    width: 300px;
+}
+</style>
+</head>
+<body>
 
 .dropdown {
     position: right;
