@@ -32,87 +32,60 @@
 
           
 
-<html>
-<head>
-<style>
-.dropbtn {
-    float: right;
-    background-color: #ff0000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-}
-.dropdown {
-    position: relative;
-    display: inline-block;
-    z-index: +32000;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-}
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    z-index: +32000;
-}
+nav
+  padding: 50px
+  text-align: center
   
-  ul {
-  overflow: hidden;
-  transition: all .3s ease;
-}
-
-ul.folded {
-  max-height: 0;
-}
-
-ul.unfolded {
-  max-height: 300px; //value of max-height should always bigger than actual sum of all li's height
-}
-  
-.dropdown-content a:hover {background-color: #f1f1f1}
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-</style>
-</head>
-<body>
-
-<div class="dropdown">
-  <button class="dropbtn">Menu</button>
-  <div class="dropdown-content">
-    <a href="https://ewan3141.github.io">Home</a>
-    <a href="https://ewan3141.github.io/about/">About</a>
-    <a href="https://ewan3141.github.io/blog-6/">Blog 6</a>
-    <a href="https://ewan3141.github.io/blog-5/">Blog 5</a>
-    <a href="https://ewan3141.github.io/blog-4/">Blog 4</a>
-    <a href="https://ewan3141.github.io/blog-3/">Blog 3</a>
-    <a href="https://ewan3141.github.io/blog-2/">Blog 2</a>
-    <a href="https://ewan3141.github.io/blog-entry-1/">Blog 1</a>
+  > ul
+    list-style: none
+    padding: 0
+    margin: 0
+    display: inline-block
+    background: #ddd
+    border-radius: 5px
     
-  </div>
-</div>
-  
- 
-  
-</body>
-</html>
+    > li
+      float: left
+      width: 150px
+      height: 65px
+      line-height: 65px
+      position: relative
+      text-transform: uppercase
+      font-size: 14px
+      color: rgba(0,0,0,0.7)
+      cursor: pointer
+      
+      &:hover
+        background: #d5d5d5
+        border-radius: 5px
+        
+        
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+ul.drop-menu
+  position: absolute
+  top: 100%
+  left: 0%
+  width: 100%
+  padding: 0
+  
+  li
+    background: #666
+    color: rgba(255,255,255,0.7)
+    
+    &:hover
+      background: #606060
+    
+    &:last-child
+      border-radius: 0px 0px 5px 5px
 
+
+// Default Trigger    
+
+ul.drop-menu li
+  display: none // HIDE
+
+li:hover > ul.drop-menu li
+  display: block // SHOW
     
 
     {% include analytics.html %}
