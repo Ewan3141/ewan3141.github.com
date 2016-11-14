@@ -41,7 +41,6 @@ body {
   margin-bottom: -50px;
   margin-top: -30px;
   min-hight: 500px
-  border-radius: 10px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -314,6 +313,7 @@ footer {
 
 table, th, td {
     border: 2px solid rgba(255,255,255,0.7);
+    border-radius: 10px;
 }
 
 th {
