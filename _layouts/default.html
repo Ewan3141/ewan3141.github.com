@@ -51,11 +51,13 @@
     z-index: +32000;
 }
 .dropdown-content {
-    display: none;
+    pointer-events: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: 0;
+    transition: 500ms opacity;
 }
 .dropdown-content a {
     color: black;
@@ -79,9 +81,8 @@ ul.unfolded {
 .dropdown-content a:hover {background-color: #f1f1f1}
 .dropdown:hover .dropdown-content {
     display: block;
-}
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    pointer-events: all;
+    opacity: 1;
 }
 </style>
 </head>
