@@ -32,18 +32,27 @@
 
           
 
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
+
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 <html>
 <head>
 <style>
 .dropbtn {
     float: right;
     background-color: #ff0000;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
+    color: #f9f9f9;
+    padding: 12px;
+    font-size: 16px; 
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 12px;
 }
 .dropdown {
     position: relative;
@@ -53,7 +62,7 @@
 .dropdown-content {
     pointer-events: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #ff0000;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     opacity: 0;
@@ -65,8 +74,8 @@
     text-decoration: none;
     display: block;
     z-index: +32000;
+    border-radius: 12px;
 }
-  
   ul {
   overflow: hidden;
   transition: all .3s ease;
