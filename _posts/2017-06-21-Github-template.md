@@ -1,5 +1,5 @@
 ---
-title: Github template
+title: How long is your name?!?
 layout: post
 author: ewan.mayhew
 permalink: /github-template/
