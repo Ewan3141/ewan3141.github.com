@@ -9,9 +9,9 @@ published: true
 <table style="width:100%">
   <tr>
     <th>Title</th>
-    <td>  How long is your name?!?</td>
+    <td>How long is your name?!?</td>
     <th>Date</th>
-    <td>  21/6/17</td>
+    <td>21/6/17</td>
   </tr>
 </table>
 
