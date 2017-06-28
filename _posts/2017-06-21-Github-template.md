@@ -2,7 +2,7 @@
 title: How long is your name?!?
 layout: post
 author: ewan.mayhew
-permalink: /github-template/
+permalink: /Blog-9/
 source-id: 13_mpMo3NPLzs3WZnXIF7GA40_6tJTpjTr8WD_1kMT9w
 published: true
 ---
