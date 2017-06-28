@@ -6,12 +6,12 @@ permalink: /github-template/
 source-id: 13_mpMo3NPLzs3WZnXIF7GA40_6tJTpjTr8WD_1kMT9w
 published: true
 ---
-<table>
+<table style="width:100%">
   <tr>
-    <td>Title</td>
-    <td>How long is your name?!?</td>
-    <td>Date</td>
-    <td>21/6/17</td>
+    <th>Title</th>
+    <td>  How long is your name?!?</td>
+    <th>Date</th>
+    <td>  21/6/17</td>
   </tr>
 </table>
 
@@ -35,7 +35,7 @@ published: true
 
 <table>
   <tr>
-    <td>Lesson Review</td>
+    <th>Lesson Review</th>
   </tr>
   <tr>
     <td>How did I learn? What strategies were effective? </td>
@@ -44,7 +44,7 @@ published: true
     <td>I learned through trying different pieces of code, initially i used one line to come up with the correct answer, but the problem i had with that was that it came up with an error. I then used a lot more variables and managed to get a piece of code that worked.</td>
   </tr>
   <tr>
-    <td>What limited my learning? Which habits do I need to work on? </td>
+    <th>What limited my learning? Which habits do I need to work on? </th>
   </tr>
   <tr>
     <td>The thing that limited my learning was my inaccuracy in my typing and the way that I thought about what I was typing. For example, spelling errors in how I was spelling my different variables meant that I got errors about variables not being assigned. </td>
