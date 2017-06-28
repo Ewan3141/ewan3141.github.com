@@ -41,7 +41,7 @@ published: true
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>I learned through trying different pieces of code, initially i used one line to come up with the correct answer, but the problem i had with that was that it came up with an error. I then used a lot more variables and managed to get a piece of code that worked.</td>
+    <td>I learned through trying different pieces of code, initially i used one line to come up with the correct answer, but the problem I had with that was that it came up with an error. I then used a lot more variables and managed to get a piece of code that worked.</td>
   </tr>
   <tr>
     <th>What limited my learning? Which habits do I need to work on? </th>
@@ -50,7 +50,7 @@ published: true
     <td>The thing that limited my learning was my inaccuracy in my typing and the way that I thought about what I was typing. For example, spelling errors in how I was spelling my different variables meant that I got errors about variables not being assigned. </td>
   </tr>
   <tr>
-    <td>What will I change for next time? How will I improve my learning?</td>
+    <th>What will I change for next time? How will I improve my learning?</th>
   </tr>
   <tr>
     <td>Next time I will change my approach, using pseudo-code to write through what I was going to write before I wrote it, so I would bypass the errors that came with not doing that.</td>
