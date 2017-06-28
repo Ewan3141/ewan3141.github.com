@@ -9,7 +9,7 @@ published: true
 <table style="width:100%">
   <tr>
     <th>Title</th>
-    <td>Blog 9</td>
+    <td>Blog entry 9</td>
     <th>Date</th>
     <td>21/6/17</td>
   </tr>
