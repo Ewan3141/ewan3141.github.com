@@ -1,17 +1,17 @@
 ---
-title: How long is your name?!?
+title: Github template
 layout: post
 author: ewan.mayhew
-permalink: /blog-9/
+permalink: /github-template/
 source-id: 13_mpMo3NPLzs3WZnXIF7GA40_6tJTpjTr8WD_1kMT9w
 published: true
 ---
-<table style="width:100%">
+<table>
   <tr>
-    <th>Title</th>
-    <td>Blog entry 9</td>
-    <th>Date</th>
-    <td>21/6/17</td>
+    <td>Title</td>
+    <td>Coding an AI - Last lesson of term</td>
+    <td>Date</td>
+    <td>19/6/17</td>
   </tr>
 </table>
 
@@ -19,41 +19,41 @@ published: true
 <table>
   <tr>
     <td>Starting point:</td>
-    <td>A vague idea about how to write this piece of code.</td>
+    <td>Nothing, a vague idea of what I wanted out of the lesson</td>
   </tr>
   <tr>
     <td>Target for this lesson?</td>
-    <td>To have written a piece of code that works out the relative lengths of your names.</td>
+    <td>To have written a piece of code that tells a user its opinion on something and then uses their response to expand its own vocabulary, to learn what is a good thing and a bad thing.</td>
   </tr>
   <tr>
     <td>Did I reach my target? 
 (add details to "Lesson Review")</td>
-    <td> Yes I did.</td>
+    <td>For the most part, yes.</td>
   </tr>
 </table>
 
 
 <table>
   <tr>
-    <th>Lesson Review</th>
+    <td>Lesson Review</td>
   </tr>
   <tr>
     <td>How did I learn? What strategies were effective? </td>
   </tr>
   <tr>
-    <td>I learned through trying different pieces of code, initially i used one line to come up with the correct answer, but the problem I had with that was that it came up with an error. I then used a lot more variables and managed to get a piece of code that worked.</td>
+    <td>I learned through using different websites to try and get different words into lists, and I used these websites to learn how to assign new values to lists so I could expand my AIs vocabulary.</td>
   </tr>
   <tr>
-    <th>What limited my learning? Which habits do I need to work on? </th>
+    <td>What limited my learning? Which habits do I need to work on? </td>
   </tr>
   <tr>
-    <td>The thing that limited my learning was my inaccuracy in my typing and the way that I thought about what I was typing. For example, spelling errors in how I was spelling my different variables meant that I got errors about variables not being assigned. </td>
+    <td>The thing that mostly limited my learning was the different ways in which I could code my work, for example I couldn't find ways of making it pick from different lists depending on certain situations.</td>
   </tr>
   <tr>
-    <th>What will I change for next time? How will I improve my learning?</th>
+    <td>What will I change for next time? How will I improve my learning?</td>
   </tr>
   <tr>
-    <td>Next time I will change my approach, using pseudo-code to write through what I was going to write before I wrote it, so I would bypass the errors that came with not doing that.</td>
+    <td>Next time I don’t feel I shall change much, as for the most part, work inside of the lesson as well as outside of it were very successful, I ended the lesson with a basic piece of code that code expand its own vocabulary, and after working on it at home I made it able to identify different adverbs as positive or negative.</td>
   </tr>
 </table>
 
