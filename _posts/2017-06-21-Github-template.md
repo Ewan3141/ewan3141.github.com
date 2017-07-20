@@ -6,7 +6,7 @@ permalink: /github-template/
 source-id: 13_mpMo3NPLzs3WZnXIF7GA40_6tJTpjTr8WD_1kMT9w
 published: true
 ---
-<table>
+<table style="width:100%">
   <tr>
     <th>Title</th>
     <td>Blog entry 9</td>
@@ -18,7 +18,7 @@ published: true
 
 <table>
   <tr>
-    <th>Starting point:</th>
+    <td>Starting point:</td>
     <td>Nothing, a vague idea of what I wanted out of the lesson</td>
   </tr>
   <tr>
