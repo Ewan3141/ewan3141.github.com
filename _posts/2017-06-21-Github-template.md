@@ -22,12 +22,12 @@ published: true
     <td>Nothing, a vague idea of what I wanted out of the lesson</td>
   </tr>
   <tr>
-    <th>Target for this lesson?</th>
+    <td>Target for this lesson?</td>
     <td>To have written a piece of code that tells a user its opinion on something and then uses their response to expand its own vocabulary, to learn what is a good thing and a bad thing.</td>
   </tr>
   <tr>
-    <th>Did I reach my target? 
-(add details to "Lesson Review")</th>
+    <td>Did I reach my target? 
+(add details to "Lesson Review")</td>
     <td>For the most part, yes.</td>
   </tr>
 </table>
