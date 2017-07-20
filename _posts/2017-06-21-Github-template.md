@@ -1,5 +1,5 @@
 ---
-title: Blog entry 10
+title: Coding an AI - Last lesson of term
 layout: post
 author: ewan.mayhew
 permalink: /github-template/
@@ -9,7 +9,7 @@ published: true
 <table>
   <tr>
     <th>Title</th>
-    <td>Coding an AI - Last lesson of term</td>
+    <td>Blog entry 10</td>
     <th>Date</th>
     <td>19/6/17</td>
   </tr>
