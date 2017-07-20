@@ -9,9 +9,9 @@ published: true
 <table>
   <tr>
     <th>Title</th>
-    <th>Coding an AI - Last lesson of term</th>
+    <td>Coding an AI - Last lesson of term</td>
     <th>Date</th>
-    <th>19/6/17</th>
+    <td>19/6/17</td>
   </tr>
 </table>
 
